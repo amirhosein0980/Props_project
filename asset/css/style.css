@@ -203,7 +203,7 @@ ul li:hover > ul, ul {
 
 /*section's container, POPULAR PROPERTIES*/
 
-.containers{
+.containers {
     width: 100%;
     position: relative;
     top: 250px;
@@ -212,14 +212,14 @@ ul li:hover > ul, ul {
     justify-content: center;
 }
 
-.example{
+.example {
     background-color: #efefef;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.example2{
+.example2 {
     background-color: #f8f9fa;
     width: 100%;
     height: 51.6%;
@@ -881,6 +881,11 @@ footer {
         margin-top: 360px;
     }
 
+    .example {
+        position: relative;
+        top: 2400px;
+    }
+
     .boxs {
         display: block;
     }
@@ -943,7 +948,7 @@ footer {
 
     .testinonals {
         position: relative;
-        top: 1522px;
+        top: 1250px;
     }
 
     .home3 {
@@ -961,6 +966,8 @@ footer {
         margin-top: 350px;
         flex-direction: column;
         padding-top: 100px;
+        position: relative;
+        top: 120px;
     }
 
     .div_agents1_header p {
@@ -970,6 +977,7 @@ footer {
     .div_agents2 {
         margin-top: 700px;
         height: auto;
+        padding-top: 100px;
     }
 
     .div_agents2_header h2 {
@@ -1008,7 +1016,7 @@ footer {
 
     .we_bring {
         position: relative;
-        top: 2143px;
+        top: 1900px;
     }
 
     .we_bring_main {
@@ -1021,16 +1029,18 @@ footer {
 
     .we_bring_main_picture {
         width: 100%;
+        height: 121%;
     }
 
     .we_bring_main_boxs {
         width: 100%;
         padding-left: 10px;
+        position: relative;
+        top: 30px;
     }
 
     footer {
         position: relative;
-        top: 2383px;
     }
 
     .we_bring_footer {
@@ -1039,10 +1049,16 @@ footer {
         padding-top: 318px;
         margin-top: 48px;
         padding-left: 10px;
+        position: relative;
+        bottom: -144px;
     }
 
     .we_bring_header p {
         width: 487px;
+    }
+
+    .we_bring_header {
+        margin-bottom: 80px;
     }
 
     .we_bring_footers {
@@ -1060,7 +1076,8 @@ footer {
     nav a {
         display: block;
     }
-    .box1 li{
+
+    .box1 li {
         margin-bottom: 20px;
     }
 }
@@ -1087,7 +1104,12 @@ footer {
         display: flex;
         flex-wrap: wrap;
         width: 459px;
-        margin-top: 360px;
+        margin-top: 292px;
+    }
+
+    .example {
+        position: relative;
+        top: 1300px;
     }
 
     .boxs {
@@ -1095,7 +1117,6 @@ footer {
     }
 
     .containers {
-        padding-top: 500px;
         width: 100%;
         position: relative;
         top: 450px;
@@ -1152,11 +1173,11 @@ footer {
 
     .testinonals {
         position: relative;
-        top: 1522px;
+        top: 100px;
     }
 
-    .home3 {
-        margin-top: 3px;
+    .home3 ,.home2 {
+        display: none;
     }
 
     .box2 {
@@ -1170,6 +1191,11 @@ footer {
         margin-top: 350px;
         flex-direction: column;
         padding-top: 100px;
+        position: relative;
+        top: 120px;
+    }
+    .homes a{
+        width: 100%;
     }
 
     .div_agents1_header p {
@@ -1179,6 +1205,7 @@ footer {
     .div_agents2 {
         margin-top: 700px;
         height: auto;
+        padding-top: 100px;
     }
 
     .div_agents2_header h2 {
@@ -1217,7 +1244,7 @@ footer {
 
     .we_bring {
         position: relative;
-        top: 2143px;
+        top: 700px;
     }
 
     .we_bring_main {
@@ -1230,16 +1257,18 @@ footer {
 
     .we_bring_main_picture {
         width: 100%;
+        height: 121%;
     }
 
     .we_bring_main_boxs {
         width: 100%;
         padding-left: 10px;
+        position: relative;
+        top: 30px;
     }
 
     footer {
         position: relative;
-        top: 2383px;
     }
 
     .we_bring_footer {
@@ -1248,6 +1277,12 @@ footer {
         padding-top: 318px;
         margin-top: 48px;
         padding-left: 10px;
+        position: relative;
+        bottom: -144px;
+    }
+
+    .we_bring_header {
+        margin-bottom: 80px;
     }
 
     .we_bring_header p {
@@ -1265,7 +1300,8 @@ footer {
     header {
         height: 170vh;
     }
-    .box1 li{
+
+    .box1 li {
         margin-bottom: 20px;
     }
 }
