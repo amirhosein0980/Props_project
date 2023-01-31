@@ -881,6 +881,7 @@ footer {
         margin-top: 360px;
     }
 
+
     .example {
         position: relative;
         top: 2400px;
@@ -952,7 +953,10 @@ footer {
     }
 
     .home3 {
-        margin-top: 3px;
+        display: none;
+    }
+    .home1 a,.home2 a{
+        width: 100%;
     }
 
     .box2 {
@@ -1153,7 +1157,7 @@ footer {
 
     .b_1 {
         position: absolute;
-        top: 517px;
+        top: 572px;
     }
 
     .b_2 {
