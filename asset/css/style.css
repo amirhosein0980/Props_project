@@ -864,6 +864,11 @@ footer {
         width: 338px;
     }
 
+    .div_search {
+        position: relative;
+        top: 100px;
+    }
+
     .div_search h1 {
         width: 459px;
         text-align: center;
@@ -878,13 +883,13 @@ footer {
         display: flex;
         flex-wrap: wrap;
         width: 459px;
-        margin-top: 360px;
+        margin-top: 325px;
     }
 
 
     .example {
         position: relative;
-        top: 2400px;
+        top: 1800px;
     }
 
     .boxs {
@@ -904,6 +909,8 @@ footer {
 
     .button {
         display: block;
+        position: relative;
+        top: -178px;
     }
 
     .button h2 {
@@ -929,7 +936,7 @@ footer {
 
     .b_1 {
         position: absolute;
-        top: 517px;
+        top: 500px;
     }
 
     .b_2 {
@@ -949,13 +956,14 @@ footer {
 
     .testinonals {
         position: relative;
-        top: 1250px;
+        top: 670px;
     }
 
     .home3 {
         display: none;
     }
-    .home1 a,.home2 a{
+
+    .home1 a, .home2 a {
         width: 100%;
     }
 
@@ -1020,7 +1028,7 @@ footer {
 
     .we_bring {
         position: relative;
-        top: 1900px;
+        top: 1300px;
     }
 
     .we_bring_main {
@@ -1180,7 +1188,7 @@ footer {
         top: 100px;
     }
 
-    .home3 ,.home2 {
+    .home3, .home2 {
         display: none;
     }
 
@@ -1198,7 +1206,8 @@ footer {
         position: relative;
         top: 120px;
     }
-    .homes a{
+
+    .homes a {
         width: 100%;
     }
 
