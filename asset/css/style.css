@@ -473,6 +473,7 @@ ul li:hover > ul, ul {
 .we_bring_main_boxs_:hover .we_bring_main_boxs_i {
     outline: 2px solid #1f6f8b;
     color: #1f6f8b;
+    background: white;
 }
 
 .we_bring_main_boxs_i {
